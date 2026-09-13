@@ -1,0 +1,36 @@
+#######################################
+# Syntax Coloring Map For CommutateI2C
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+CommutateI2C	KEYWORD1
+Role	KEYWORD1
+Stats	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+update	KEYWORD2
+send	KEYWORD2
+slaveCount	KEYWORD2
+slaveAt	KEYWORD2
+onMessage	KEYWORD2
+onDelivered	KEYWORD2
+stats	KEYWORD2
+resetStats	KEYWORD2
+setScanInterval	KEYWORD2
+setPollDelay	KEYWORD2
+setAutosendInterval	KEYWORD2
+setMaxRetries	KEYWORD2
+enableAutosend	KEYWORD2
+attachLCD	KEYWORD2
+printStats	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+ROLE_MASTER	LITERAL1
+ROLE_SLAVE	LITERAL1
