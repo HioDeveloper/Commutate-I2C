@@ -139,9 +139,9 @@ bool CommutateI2C::begin() {
     Wire.onReceive(_isrReceive);
     Wire.onRequest(_isrRequest);
     _instance = this;
-    DLOGF("CommutateI2C: slave 0x");
-    if (_address < 16) DLOG('0');
-    DLOGLN(_address, HEX);
+    Serial.print(F("CommutateI2C: slave 0x"));
+    if (_address < 16) Serial.print('0');
+    Serial.println(_address, HEX);
   }
   return true;
 }
